@@ -10,7 +10,7 @@ const Auth = () => {
   const [cPass, setCPass] = useState(undefined);
   return (
     <View style={styles.container}>
-      <SignUp setEmail={setEmail} setPass={setPass} setCPass={setCPass} />
+      <SignUp email={email} pass={pass} cPass={cPass} setEmail={setEmail} setPass={setPass} setCPass={setCPass} />
     </View>
   );
 };

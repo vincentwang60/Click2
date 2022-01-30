@@ -16,6 +16,11 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: 25*globals.VH,
     padding: 8*globals.VW,
+  },
+  bottom: {
+    position: 'absolute',
+    top: 80*globals.VH,
+    padding: 8*globals.VW,
   }
 });
 
